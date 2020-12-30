@@ -1,0 +1,42 @@
+#########################################
+#
+# make file
+#########################################
+
+include ../Make.include
+
+# exe, staticlib, dynamiclib
+TYPE:= dynamiclib
+
+#output name
+TARGETNAME:= mysql
+
+# include  dir
+INCLUDES += -I$(NAUT_ROOTDIR)/thirdparty/mysql/include
+INCLUDES += -I$(NAUT_ROOTDIR)/thirdparty/boost_1_65_0 
+INCLUDES += -I$(NAUT_ROOTDIR)/public
+
+# depends lib dir
+LIBDIRS += -L$(NAUT_ROOTDIR)/thirdparty/mysql/linux
+LIBDIRS += -L$(NAUT_ROOTDIR)/public/lib
+LIBDIRS += -lmysqlclient -llog
+
+# FLAGS
+GLOBAL_CCXXFLAGS += 
+
+#src dir
+SRCDIR:= ./src/
+
+#version file
+include $(SRCDIR)/version
+ 
+#CCXXFLAGS= -DDEBUG -g
+#OFLAGS= -L$(TARGET_PATH_R)
+GLOBAL_CCXXFLAGS += -std=c++11 
+#CCXXFLAGS = -fPIC
+#CFLAGS =
+#EXOBJS =
+#EXCLUDESRCS =
+ 
+ 
+include ../Make.share

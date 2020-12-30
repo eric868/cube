@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<log>
+        <local enable="true">
+                <root-path note="日志文件根目录,若为空,则取执行文件当前目录"></root-path>
+                <date note="日志日期目录,若为空,则默认取系统当前日期"></date>
+                <file-size-limit note="单个日志文件大小限制,单位:MB(设置-1,则不限制文件大小)">100</file-size-limit>
+                <file-count-limit note="日志文件数量限制(设置-1,则不限制文件数量)">-1</file-count-limit>
+        </local>
+        <remote enable="false">
+                <server-name note="服务名称">remote log</server-name>
+                <host note="服务器域名或IP">127.0.0.1</host>
+                <port note="服务器端口">8022</port>
+        </remote>
+</log>

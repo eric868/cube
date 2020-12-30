@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{ccf5945e-e1c4-469e-9e03-f0b6e8fad662}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\aes.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\alarm.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base64.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dictionary.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dispatch.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dtrans.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\event.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\file.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lock.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\log_binder.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logger.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\md5.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\reference_base.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rsa.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\thread.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\timer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\trace.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\zip.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http_client.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http_server.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pugixml.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\aes.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\alarm.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\base.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\base64.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dictionary.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dispatch.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dtrans.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\event.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\file.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lock.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\log_binder.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logger.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\md5.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mqueue.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\reference_base.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\rsa.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sigslot.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\thread.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\timer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tqueue.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\trace.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\zip.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\http_client.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\http_server.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pugiconfig.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pugixml.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\any.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cast.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\event.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\export.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\file.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lexical_cast.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory_pool.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\monitor.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\object.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\project.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\thread_pool.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\type.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\server_status.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memoryex.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\timer.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\md5.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dispatch_handler.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\message_queue.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dispatch_server.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\event.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\md5.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

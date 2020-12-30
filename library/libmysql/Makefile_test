@@ -1,0 +1,40 @@
+#########################################
+#
+# nio makefile
+#########################################
+
+include ../Make.include
+
+# exe, staticlib, dynamiclib
+TYPE:= exe
+
+#output name
+TARGETNAME:= test_mysql
+
+# include  dir
+INCLUDES += -I$(NAUT_ROOTDIR)/thirdparty/mysql/include
+INCLUDES += -I$(NAUT_ROOTDIR)/thirdparty/boost_1_65_0
+INCLUDES += -I$(NAUT_ROOTDIR)/public
+
+# depends lib
+LIBDIRS += -L$(NAUT_ROOTDIR)/thirdparty/mysql/linux
+LIBDIRS += -L$(NAUT_ROOTDIR)/thirdparty/boost_1_65_0/linux
+LIBDIRS += -L$(NAUT_ROOTDIR)/public/lib
+LIBDIRS += -llog -lmysql 
+LIBDIRS += -lboost_log -lboost_filesystem -lboost_system -lboost_thread -lrt -pthread -ldl
+
+#src dir
+SRCDIR:= ./test/
+ 
+#CCXXFLAGS= -DDEBUG -g
+ 
+#OFLAGS= -L$(TARGET_PATH_R)
+GLOBAL_CCXXFLAGS += -std=c++11
+CCXXFLAGS = -fPIC
+#CFLAGS =
+#EXOBJS =
+#EXCLUDESRCS =
+ 
+#USEMYSELFALL = yes;
+ 
+include ../Make.share

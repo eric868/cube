@@ -1,0 +1,35 @@
+# Packages # 
+############ 
+bin/*
+temp/*
+lib/*
+include/*
+project/riskapidemo/*
+ipch/*
+project/log/*
+project/test_base/log/*
+project/db_sync/log/*
+project/ctp_quote/temp/*
+project/ctp_trade/temp/*
+
+ # Compiled source # 
+################### 
+*.com 
+*.class 
+*.dll 
+*.exe 
+*.o 
+*.so 
+*.exp
+*.ilk
+*.lib
+*.pdb
+*.opensdf
+*.sdf
+*.v12.suo
+*.log
+*.bak
+*.con
+*.suo
+*.db
+*.opendb
